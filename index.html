@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      <a class="autor" href="https://github.com/italocampo" target="_blank"
+        >By: Ítalo Campos</a>
+      <p>Add your tasks!</p>
+      <input type="text" id="inputTarefa" placeholder="Enter a task" />
+
+      <button onclick="adicionarTarefa()">Add task</button>
+      <button onclick="limparLista()" class="botao_lista">Clear list</button>
+      <p id="mensagem"></p>
+      <ul id="lista"></ul>
+    </div>
+
+    <script src="menu.js"></script>
+  </body>
+</html>
