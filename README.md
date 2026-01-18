@@ -1,15 +1,26 @@
-# ToDoList (Java + JavaFX)
+# To-Do List – JavaScript
 
-## 📌 O que é
-Aplicativo de lista de tarefas desenvolvido em Java usando JavaFX.
+## 📌 Sobre
+Aplicação web simples e funcional de lista de tarefas, desenvolvida com JavaScript puro (Vanilla JS).
 
-Permite adicionar tarefas, marcar como concluídas e excluir.
+A aplicação permite que o usuário adicione, conclua e remova tarefas, com persistência de dados utilizando o localStorage do navegador.
 
-## 🚀 Tecnologias
-- Java
-- JavaFX
+## 🚀 Funcionalidades
+- Adicionar novas tarefas  
+- Marcar tarefas como concluídas  
+- Remover tarefas  
+- Salvar tarefas no localStorage  
 
-## ▶️ Como rodar
-1. Clone o repositório
-```bash
-git clone ...
+## 🛠️ Tecnologias
+- HTML  
+- CSS  
+- JavaScript (Vanilla)  
+
+## ▶️ Como executar o projeto
+Basta abrir o arquivo `index.html` em qualquer navegador.
+
+## 🧠 O que aprendi
+- Manipulação do DOM  
+- Tratamento de eventos em JavaScript  
+- Gerenciamento de estado da aplicação  
+- Uso do localStorage para persistência de dados  
